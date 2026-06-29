@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-keeper-green: #2d5a43;
+  --color-keeper-green-light: #3d6f54;
+  --color-keeper-green-accent: #40916c;
+  --color-keeper-green-pale: #e8f5ec;
+  --color-page-bg: #f4f5f7;
+  --color-status-overdue: #ef4444;
+  --color-status-almost: #f59e0b;
+  --color-status-track: #22c55e;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  background-color: #f4f5f7;
+  color: #1a1a1a;
+}
