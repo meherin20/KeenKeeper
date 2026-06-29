@@ -12,7 +12,9 @@ export default function FriendCard({ friend }) {
         alt={friend.name}
         className="h-[72px] w-[72px] rounded-full object-cover transition-transform group-hover:scale-105"
       />
-      
+      <h3 className="mt-4 text-[15px] font-bold text-gray-900">{friend.name}</h3>
+      <p className="mt-1 text-xs text-gray-400">{friend.days_since_contact}d ago</p>
+
       <div className="mt-3 flex flex-wrap justify-center gap-1.5">
         {friend.tags.map((tag) => (
           <span
